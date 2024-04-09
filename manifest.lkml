@@ -4,7 +4,7 @@ constant: CONNECTION_NAME {
 }
 
 constant: GCP_PROJECT {
-  value: "cortex-ccw-ce-sap-latam-demo"
+  value: "ce-sap-latam-demo"
   export: override_required
 }
 
