@@ -1,20 +1,20 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "ce-sap-latam-demo-looker"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project ID"
+  value: "cortex-ccw-ce-sap-latam-demo"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "cortex_sap_reporting"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "100"
   export: override_required
 }
 
