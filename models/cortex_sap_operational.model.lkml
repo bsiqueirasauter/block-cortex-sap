@@ -27,7 +27,7 @@ persist_with: cortex_default_datagroup
 # Typically, join parameters require that you define the join type, join relationship, and a sql_on clause.
 # Each joined view also needs to define a primary key.
 
-include: "/LookML_Dashboard/*.dashboard.lookml"
+include: "/CCW_LookML_Dashboard/*.dashboard.lookml"
 
 named_value_format: Greek_Number_Format {
   value_format: "[>=1000000000]0.0,,,\"B\";[>=1000000]0.0,,\"M\";[>=1000]0.0,\"K\";0.0"
